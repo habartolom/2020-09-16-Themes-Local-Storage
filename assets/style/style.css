@@ -65,9 +65,17 @@ body {
 .dark {
 	background-color: #333;
 }
+.oceanic{
+	background-color: #035A6D;
+}
+.blue{
+	background-color: #007bff;
+}
 .light {
 	background-color: #fff;
 }
+
+/*dark*/
 .container.dark .main {
 	background-color: #333333;
 }
@@ -79,4 +87,34 @@ body {
 .container.dark .header,
 .container.dark .footer {
 	box-shadow: 0 0 8px gray;
+}
+
+
+/*oceanic*/
+.container.oceanic .main {
+	background-color: #035A6D;
+}
+.container.oceanic p,
+.container.oceanic h1,
+.container.oceanic a {
+	color: #f4f4f4;
+}
+.container.oceanic .header,
+.container.oceanic .footer {
+	box-shadow: 0 0 8px #5babbd;
+}
+
+
+/*blue*/
+.container.blue .main {
+	background-color:#007bff;
+}
+.container.blue p,
+.container.blue h1,
+.container.blue a {
+	color:#f4f4f4
+}
+.container.blue .header,
+.container.blue .footer {
+	box-shadow: 0 0 8px lightblue;
 }
